@@ -1,4 +1,4 @@
-#Convolution recurrent neural network (CRNN)
+# Convolution recurrent neural network (CRNN)
 
 Extended implementaion of CRNN network on Pytorch, for bigger image input size processing.
 
@@ -14,14 +14,14 @@ path_to_save_results - the directories for model and metrics will be created aut
 model_type - this is name of model's current architecture  
 model_name - this is name of model with type model_type, that have been trained at dataset dataset_name 
 
-##Dataset structure  
+## Dataset structure  
 
 Dataset structure is showed as the image below. 
 
 <a href="https://habrastorage.org/webt/si/8t/y4/si8ty4lqvsjlkkkq5vak5x952l8.png">
 <img src="https://habrastorage.org/webt/si/8t/y4/si8ty4lqvsjlkkkq5vak5x952l8.png" width=500></a>  
 
-##labels file structure
+## labels file structure
 
 Labels information is contained in labels files: train_labels_name, val_labels_name.  
 Example of labels file with two images:   
