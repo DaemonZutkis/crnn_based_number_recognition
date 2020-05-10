@@ -16,14 +16,14 @@ model_name - this is name of model with type model_type, that have been trained 
 
 ## Dataset structure  
 
-Dataset structure is showed as the image below. 
+Dataset structure is showed at the image below. 
 
 <a href="https://habrastorage.org/webt/si/8t/y4/si8ty4lqvsjlkkkq5vak5x952l8.png">
 <img src="https://habrastorage.org/webt/si/8t/y4/si8ty4lqvsjlkkkq5vak5x952l8.png" width=500></a>  
 
 ## labels file structure
 
-Labels information is contained in labels files: train_labels_name, val_labels_name.  
+Labels information is contained in labels json files: train_labels_name.json, val_labels_name.json.  
 Example of labels file with two images:   
 {file_name_1.jpg": {"number": "959205766", "type_id": "type_id_1"},  
  "file_name_2.jpg": {"number": "5329147", "type_id": "type_id_m"}}
